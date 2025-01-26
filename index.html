@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Website header</h1>
+        <nav>
+            <ul>
+                <li><a href="#top">Top Section</a></li>
+                <li><a href="#bottom">Bottom Section</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="top">
+            <h2>Top Section</h2>
+            <p>This is the top section of the website.</p>
+        </section>
+
+        <section id="three-images">
+            <h2>Three Images Section</h2>
+            <div class="grid">
+                <img src="https://placehold.co/400x300" alt="Placeholder 1">
+                <img src="https://placehold.co/400x300/orange/white" alt="Placeholder 2">
+                <img src="https://placehold.co/400x300/transparent/F00" alt="Placeholder 3">
+            </div>
+        </section>
+        <section id="carousel">
+            <h2>Image Carousel</h2>
+            <div class="carousel">
+                <div class="carousel-track">
+                    <img src="https://placehold.co/400x300" alt="Slide 1">
+                    <img src="https://placehold.co/400x300/orange/white" alt="Slide 2">
+                    <img src="https://placehold.co/400x300/transparent/F00" alt="Slide 3">
+                </div>
+                <button class="carousel-button prev">❮</button>
+                <button class="carousel-button next">❯</button>
+            </div>
+        </section>
+
+        <section id="flexbox">
+            <h2>Flexbox Section</h2>
+            <div class="flex">
+                <div>Item 1</div>
+                <div>Item 2</div>
+                <div>Item 3</div>
+            </div>
+        </section>
+        <section id="bottom">
+            <h2>Bottom Section</h2>
+            <p>This is the bottom section of the website.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Website Footer</p>
+    </footer>
+    <script src="carousel.js"></script>
+</body>
+
+</html>
